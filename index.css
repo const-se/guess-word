@@ -1,0 +1,40 @@
+.page {
+  background-color: #E7E1F4;
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 450px;
+}
+
+.word {
+  background-color: #EFF6FB;
+  border: 1px solid #423232;
+  border-radius: 20px;
+  color: #423232;
+  font-family: inherit;
+  font-size: 1.25em;
+}
+
+.guess {
+  background-color: #A6C954;
+  border: 3px solid #423232;
+  border-radius: 20px;
+  font-weight: 900;
+}
+
+.guess.old {
+  border-width: 1px;
+}
+
+.guess.old .guess-word {
+  font-weight: normal;
+}
+
+.guess.old .guess-rate {
+  font-weight: normal;
+}
+
+.blur {
+  filter: blur(6px);
+}
